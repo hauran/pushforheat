@@ -22,7 +22,7 @@ const SHOWS = [
       'https://www.google.com/maps/place/Hastings+Velo/@40.9944274,-73.8808345,15z/data=!4m5!3m4!1s0x0:0x463cd53cd10064b3!8m2!3d40.9944274!4d-73.8808345',
     venue: '45 Main St, Hastings-On-Hudson',
     date: 'Saturday Jan 19th',
-    info: '2 sets - 7 - 9:30pm'
+    info: '7pm'
   },
   {
     title: 'Spooktoberfest',
