@@ -5,13 +5,13 @@ import Show from './Show'
 
 const shows = [
   {
-    title: 'Hasting Education Foundation Annual Spring Party',
-    link: './flyers/HEF2019_flyer.png',
+    title: '2019 River Arts Music Tour',
+    link: './flyers/2019RiverArts.pdf',
     map:
-      'https://www.google.com/maps/place/Saint+Andrews+Golf+Club/@40.9888301,-73.848012,15z/data=!4m2!3m1!1s0x0:0x4b3421ad9f3da2cd?ved=2ahUKEwictrLa_JDhAhVJNd8KHVeKCTUQ_BIwCnoECAsQCA',
-    venue: 'Saint Andrews Golf Club',
-    date: 'Friday May 10th',
-    info: '7pm'
+      'https://www.google.com/maps/place/7+Crossbar+Rd,+Hastings-On-Hudson,+NY+10706/@40.9813614,-73.8770589,17z',
+    venue: '7 Crossbar Road, Hastings-On-Hudson',
+    date: 'Saturday June 1st',
+    info: '4-6pm'
   }
 ]
 

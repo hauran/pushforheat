@@ -17,6 +17,15 @@ const MorePastLink = styled.span`
 
 const SHOWS = [
   {
+    title: 'Hasting Education Foundation Annual Spring Party',
+    link: './flyers/HEF2019_flyer.png',
+    map:
+      'https://www.google.com/maps/place/Saint+Andrews+Golf+Club/@40.9888301,-73.848012,15z/data=!4m2!3m1!1s0x0:0x4b3421ad9f3da2cd?ved=2ahUKEwictrLa_JDhAhVJNd8KHVeKCTUQ_BIwCnoECAsQCA',
+    venue: 'Saint Andrews Golf Club',
+    date: 'Friday May 10th',
+    info: '7pm'
+  },
+  {
     title: 'Hastings Velo Fundraiser and Award Night',
     map:
       'https://www.google.com/maps/place/Hastings+Velo/@40.9944274,-73.8808345,15z/data=!4m5!3m4!1s0x0:0x463cd53cd10064b3!8m2!3d40.9944274!4d-73.8808345',
@@ -51,7 +60,7 @@ const SHOWS = [
     info: '2 sets - 11am & 3pm'
   },
   {
-    title: ' River Spirit Music &amp; Art Festival',
+    title: ' River Spirit Music & Art Festival',
     link: 'https://riverspiritfestival.com/festival/',
     map:
       'https://www.google.com/maps/dir//Draper+Park,+80+Washington+Ave,+Hastings-On-Hudson,+NY+10706/@40.9916933,-73.8825025,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c2ecf17f80415b:0x63d7ba65a4b8f47!2m2!1d-73.8803138!2d40.9916893',

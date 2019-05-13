@@ -51,8 +51,8 @@ class App extends Component {
         <Content>
           <Background />
           <Header />
-          <Tracks />
           <Subscribe />
+          <Tracks />
           <UpcomingShows />
           <PastShows />
           <Contact />
