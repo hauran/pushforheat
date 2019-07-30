@@ -17,6 +17,24 @@ const MorePastLink = styled.span`
 
 const SHOWS = [
   {
+    title: 'Celebrate Greenburgh',
+    link: './flyers/2019_Celebrate_Flyer.pdf',
+    map:
+      'https://www.google.com/maps/place/Anthony+F.+Veteran+Park/@41.0213848,-73.8251484,15z/data=!4m5!3m4!1s0x0:0x73e86dd04547a19d!8m2!3d41.0213848!4d-73.8251484',
+    venue: 'Anthony F. Veteran Park',
+    date: 'Saturday July 20th',
+    info: '1pm'
+  },
+  {
+    title: '2019 River Arts Music Tour',
+    link: './flyers/2019RiverArts.pdf',
+    map:
+      'https://www.google.com/maps/place/7+Crossbar+Rd,+Hastings-On-Hudson,+NY+10706/@40.9813614,-73.8770589,17z',
+    venue: '7 Crossbar Road, Hastings-On-Hudson',
+    date: 'Saturday June 1st',
+    info: '4-6pm'
+  },
+  {
     title: 'Hasting Education Foundation Annual Spring Party',
     link: './flyers/HEF2019_flyer.png',
     map:
@@ -75,7 +93,7 @@ const SHOWS = [
   }
 ]
 
-const CUTOFF = 2
+const CUTOFF = 3
 class PastShows extends Component {
   aboveFold = SHOWS.splice(0, CUTOFF)
   state = { expand: false }

@@ -5,14 +5,13 @@ import Show from './Show'
 
 const shows = [
   {
-    title: '2019 River Arts Music Tour',
-    link: './flyers/2019RiverArts.pdf',
+    title: 'Spooktoberfest 2019',
     map:
-      'https://www.google.com/maps/place/7+Crossbar+Rd,+Hastings-On-Hudson,+NY+10706/@40.9813614,-73.8770589,17z',
-    venue: '7 Crossbar Road, Hastings-On-Hudson',
-    date: 'Saturday June 1st',
-    info: '4-6pm'
-  }
+      'https://www.google.com/maps/place/Hart%E2%80%99s+Brook+Park+and+Preserve/@41.0197724,-73.8077669,15z/data=!4m2!3m1!1s0x0:0x27e8a4f624b81cfd?ved=2ahUKEwjYytmzh5HhAhWonuAKHRWABqgQ_BIwEXoECAcQCA',
+    venue: "Hart's Brook Park & Reserve",
+    date: 'Saturday Oct 19th',
+    info: '1pm - 3pm'
+  },
 ]
 
 const UpcomingShows = () => {
