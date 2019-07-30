@@ -2,15 +2,6 @@
   "name": "pushforheat",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "2.1.8"
-  },
-  "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-icons": "3.5.0",
-    "styled-components": "4.1.3"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -24,5 +15,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-scripts": "^3.0.1",
+    "styled-components": "^4.3.2"
+  }
 }
