@@ -1,11 +1,13 @@
 {
   "name": "pushforheat",
+  "homepage": "http://hauran.github.io/pushforheat",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "git subtree split --prefix build -b gh-pages; git push -f origin gh-pages:gh-pages; git branch -D gh-pages;"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -22,5 +24,8 @@
     "react-icons": "3.7.0",
     "react-scripts": "3.0.1",
     "styled-components": "4.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
