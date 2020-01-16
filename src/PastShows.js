@@ -17,6 +17,14 @@ const MorePastLink = styled.span`
 
 const SHOWS = [
   {
+    title: 'DoubleDays',
+    link: './flyers/DoubleDays_2019_12.png',
+    map: 'https://goo.gl/maps/7APiWTueFesPjqHDA',
+    venue: "DoubleDays, Dobbs Ferry",
+    date: 'Saturday Dec 7th',
+    info: '9pm'
+  },
+  {
     title: 'Spooktoberfest 2019',
     link: './flyers/Spooktoberfest_2019.pdf',
     map:

@@ -5,13 +5,13 @@ import Show from './Show'
 
 const shows = [
   {
-    title: 'DoubleDays',
-    link: './flyers/DoubleDays_2019_12.png',
-    map:'https://goo.gl/maps/7APiWTueFesPjqHDA',
-    venue: "DoubleDays, Dobbs Ferry",
-    date: 'Saturday Dec 7th',
-    info: '9pm'
-  },
+    title: 'Hastings Velo Award Night',
+    map:
+      'https://www.google.com/maps/place/Hastings+Velo/@40.9944274,-73.8808345,15z/data=!4m5!3m4!1s0x0:0x463cd53cd10064b3!8m2!3d40.9944274!4d-73.8808345',
+    venue: '45 Main St, Hastings-On-Hudson',
+    date: 'Saturday Jan 25th',
+    info: '7pm'
+  }
 ]
 
 const UpcomingShows = () => {
