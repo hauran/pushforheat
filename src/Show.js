@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FaFileImage } from 'react-icons/fa'
 
 const ShowContainer = styled.div`
   margin-bottom: 20px;
@@ -34,7 +35,7 @@ const Show = p => {
     <ShowContainer>
       {p.link ? (
         <Address target="_blank" bold href={p.link}>
-          {p.title}
+          {p.title} <FaFileImage/>
         </Address>
       ) : (
         <Title bold>{p.title}</Title>
