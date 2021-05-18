@@ -52,7 +52,7 @@ const Header = () => {
         </Flames>
       </Title>
       <Bandinfo>
-        Push for Heat is Heather Campanelli, Kevin Felix, Richard Mai, Ahmad Saeed and Sam Simmons.
+        Push for Heat is Heather Campanelli, Kevin Felix, Ahmad Saeed and Sam Simmons.
       </Bandinfo>
     </Section>
   )
